@@ -22,5 +22,5 @@ end
 
 
 def printer(attendees)
-  badges_and_room_assignments.each_line do |line|
+  batch_badge_creator(attendees).each do |badge|
 end
