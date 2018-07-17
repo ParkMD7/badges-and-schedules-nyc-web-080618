@@ -21,6 +21,6 @@ def assign_rooms(attendees)
 end
 
 
-def printer
-  
+def printer(attendees)
+  badges_and_room_assignments.each_line do |line|
 end
