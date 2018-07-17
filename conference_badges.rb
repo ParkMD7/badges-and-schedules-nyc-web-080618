@@ -12,7 +12,7 @@ def batch_badge_creator(attendees)
   attendees.each do |attendee|
     attendee_array << badge_maker(name)
   end
-  end
+  attendee_array = []
 end
 
 
