@@ -8,8 +8,8 @@ end
 
 
 def batch_badge_creator(attendees)
-  attendee_array = []
-  attendees.each do |attendee|
+
+  attendees.map do |attendee|
     attendee_array << badge_maker(name)
   end
   attendee_array
