@@ -8,11 +8,9 @@ end
 
 
 def batch_badge_creator(attendees)
-
   attendees.map do |attendee|
-    attendee_array << badge_maker(name)
+    "Hello, my name is #{attendee}."
   end
-  attendee_array
 end
 
 
